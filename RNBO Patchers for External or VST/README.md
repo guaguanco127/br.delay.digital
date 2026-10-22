@@ -1,11 +1,11 @@
-# Max/MSP RNBO Patch for External or VST Creation: br.delay.digital.rnbo.1.1  
+# Max/MSP RNBO Patch for External or VST Creation: br.delay.digital.rnbo.1.2  
    
 By Brian Riordan  
 guaguanco127 [at] gmail [dot] com  
 brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
-Repository for br.delay.digital.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.delay.digital](https://github.com/guaguanco127/br.delay.digital)  
+Repository for br.delay.digital.1.2, with all related files, can be found here: [https://github.com/guaguanco127/br.delay.digital](https://github.com/guaguanco127/br.delay.digital)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9 and RNBO.
@@ -22,7 +22,7 @@ These files were created with Max 9 and RNBO.
 
 A clean stereo digital delay. Changing the delay time never bends the pitch: the sound crossfades from the old time to the new one, from a quick cut to a slow blur where both rhythms play at once. Three modes (Linked, Stereo, Ping-Pong), straight or cross feedback, tone filters on the echoes, Hold to freeze the loop, and On/Off. No saturation: at Feedback 1 the repeats never fade. Every change fades, mode switches included, so nothing clicks. Works at any sample rate.
 
-Inside [rnbo~], the eleven params (Mode, Time_L, Time_R, Xfade, Feedback, Route, Hold, Low_Cut, High_Cut, Dry_Wet, On_Off) are the plugin parameters, with the same ranges and dial curves as the Max and Live versions. Inlets 3 to 13 set the same params, so the external has the same thirteen inlets as the abstraction. The gen~ code inside is the same as br.delay.digital.1.1.
+Inside [rnbo~], the eleven params (Mode, Time_L, Time_R, Xfade, Feedback, Route, Hold, Low_Cut, High_Cut, Dry_Wet, On_Off) are the plugin parameters, with the same ranges and dial curves as the Max and Live versions. Inlets 3 to 13 set the same params, so the external has the same thirteen inlets as the abstraction. The gen~ code inside is the same as br.delay.digital.1.2.
 
 There is no State output: whatever drives the external or plugin already knows the values, and in a DAW they are normal plugin parameters. The State outlet is on the UI version of the abstraction only.
 
@@ -62,7 +62,7 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 
 1. Make sure Max 9 is installed on your computer, and that you have an RNBO license.
 
-2. Open br.delay.digital.rnbo.1.1.maxpat. Drop a sample of your own onto the [playlist~] to hear it.
+2. Open br.delay.digital.rnbo.1.2.maxpat. Drop a sample of your own onto the [playlist~] to hear it.
 
 3. Double-click the [rnbo~] object while the patch is locked.
 
@@ -70,11 +70,11 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 
 5. Select "Max External Export".
 
-6. Name the object br.delay.digital.1.1~ and export.
+6. Name the object br.delay.digital.1.2~ and export.
 
-**Keep the ~ at the end of the name.** Without it, the external has exactly the same name as the abstraction br.delay.digital.1.1, and Max loads whichever one it finds first, so you can't be sure which one you're using. The ~ also follows the Max convention for objects that process audio. Any other name is fine as long as it isn't the name of an abstraction you also use.
+**Keep the ~ at the end of the name.** Without it, the external has exactly the same name as the abstraction br.delay.digital.1.2, and Max loads whichever one it finds first, so you can't be sure which one you're using. The ~ also follows the Max convention for objects that process audio. Any other name is fine as long as it isn't the name of an abstraction you also use.
 
-7. Copy the exported .mxo (Mac) or .mxe64 (Windows) into a folder on Max's search path, for example Documents/Max 9/Externals, and add that folder in Options > File Preferences if it isn't listed. Then create an object called br.delay.digital.1.1~ in any patch. It has the same inlets as the abstraction, except that the eleven controls take numbers only.
+7. Copy the exported .mxo (Mac) or .mxe64 (Windows) into a folder on Max's search path, for example Documents/Max 9/Externals, and add that folder in Options > File Preferences if it isn't listed. Then create an object called br.delay.digital.1.2~ in any patch. It has the same inlets as the abstraction, except that the eleven controls take numbers only.
 
 ## <a name="ExportVST"></a>How To Export as a VST or AU Audio Plugin
 
@@ -82,7 +82,7 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 
 1. Make sure Max 9 is installed on your computer, and that you have an RNBO license.
 
-2. Open br.delay.digital.rnbo.1.1.maxpat.
+2. Open br.delay.digital.rnbo.1.2.maxpat.
 
 3. Double-click the [rnbo~] object while the patch is locked.
 

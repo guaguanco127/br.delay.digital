@@ -1,11 +1,11 @@
-# Max/MSP Abstraction: br.delay.digital.1.1  
+# Max/MSP Abstraction: br.delay.digital.1.2  
    
 By Brian Riordan  
 guaguanco127 [at] gmail [dot] com  
 brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
-Repository for br.delay.digital.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.delay.digital](https://github.com/guaguanco127/br.delay.digital)  
+Repository for br.delay.digital.1.2, with all related files, can be found here: [https://github.com/guaguanco127/br.delay.digital](https://github.com/guaguanco127/br.delay.digital)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9.
@@ -49,9 +49,9 @@ Switching modes crossfades like a time change: the tails carry on, and nothing c
 
 | File | What it is |
 |---|---|
-| br.delay.digital.1.1 | No UI. The plain object to patch with |
-| br.delay.digital.ui.1.1 | With Mode and Route menus, Hold and On/Off buttons and a dial for every other control, ready for a [bpatcher] (208 x 146) |
-| _br.delay.digital.example.1.1 | Example patch: open this first. Pick a source (drum loop, voice, synth plucks, a stereo pair or your mic) |
+| br.delay.digital.1.2 | No UI. The plain object to patch with |
+| br.delay.digital.ui.1.2 | With Mode and Route menus, Hold and On/Off buttons and a dial for every other control, ready for a [bpatcher] (208 x 146) |
+| _br.delay.digital.example.1.2 | Example patch: open this first. Pick a source (drum loop, voice, synth plucks, a stereo pair or your mic) |
 
 The UI version contains the plain version and has the same inlets and audio outlets (plus State last), so either swaps in without rewiring. Open the UI version in patching mode for comments on how it is built.
 
@@ -65,9 +65,9 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 1. Make sure you have Max 9 installed, and that the Max patch you are using is saved inside a folder.  
 
-2. Copy the .maxpat files you want into the same folder as your patch. The UI version needs the plain version next to it (br.delay.digital.ui.1.1 uses br.delay.digital.1.1).
+2. Copy the .maxpat files you want into the same folder as your patch. The UI version needs the plain version next to it (br.delay.digital.ui.1.2 uses br.delay.digital.1.2).
 
-3. In your patch, create an object called br.delay.digital.1.1. For the version with controls, create a [bpatcher] and choose br.delay.digital.ui.1.1.maxpat as its patcher.
+3. In your patch, create an object called br.delay.digital.1.2. For the version with controls, create a [bpatcher] and choose br.delay.digital.ui.1.2.maxpat as its patcher.
 
 ## <a name="Use"></a>How To Use
 

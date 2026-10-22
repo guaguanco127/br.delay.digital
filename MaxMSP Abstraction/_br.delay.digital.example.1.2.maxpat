@@ -15,7 +15,7 @@
             1480.0,
             630.0
         ],
-        "description": "_br.delay.digital.example.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+        "description": "_br.delay.digital.example.1.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
         "showontab": 1,
         "boxes": [
             {
@@ -1762,7 +1762,7 @@
                         463.0,
                         33.0
                     ],
-                    "text": "_br.delay.digital.example.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/"
+                    "text": "_br.delay.digital.example.1.2 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/"
                 }
             },
             {
@@ -1815,7 +1815,7 @@
                         736.0,
                         60.0
                     ],
-                    "text": "Two files, same DSP inside:\nbr.delay.digital.1.1 = core, no UI (in: L, R, Mode, Time L, Time R, Xfade, Feedback, Route, Hold, Low Cut, High Cut, Dry/Wet, On/Off)\nbr.delay.digital.ui.1.1 = the same with controls, for bpatchers\nUI and core have the same inlets in the same order. The UI adds one last outlet, State."
+                    "text": "Two files, same DSP inside:\nbr.delay.digital.1.2 = core, no UI (in: L, R, Mode, Time L, Time R, Xfade, Feedback, Route, Hold, Low Cut, High Cut, Dry/Wet, On/Off)\nbr.delay.digital.ui.1.2 = the same with controls, for bpatchers\nUI and core have the same inlets in the same order. The UI adds one last outlet, State."
                 }
             },
             {
@@ -1919,7 +1919,7 @@
                         145.0,
                         20.0
                     ],
-                    "text": "A: br.delay.digital.ui.1.1"
+                    "text": "A: br.delay.digital.ui.1.2"
                 }
             },
             {
@@ -1933,7 +1933,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "br.delay.digital.ui.1.1.maxpat",
+                    "name": "br.delay.digital.ui.1.2.maxpat",
                     "numinlets": 13,
                     "numoutlets": 3,
                     "offset": [
@@ -2183,7 +2183,7 @@
                         420.0,
                         22.0
                     ],
-                    "text": "br.delay.digital.1.1"
+                    "text": "br.delay.digital.1.2"
                 }
             },
             {
